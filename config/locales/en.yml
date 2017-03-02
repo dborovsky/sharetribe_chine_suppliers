@@ -4,14 +4,14 @@ en:
       edit:
         edit_listing_category: "Edit category '%{category}'"
       index:
-        listing_categories: "Listing categories"
+        listing_categories: "Item categories"
         create_a_new_category: "+ Create a new category"
         remove_category_confirmation: "Are you sure you want to remove category '%{category_name}'?"
         saving_order: "Saving category order"
         save_order_successful: "Successfully saved category order"
         save_order_error: "An error occurred while saving category order. Please refresh the page and try again."
       new:
-        new_listing_category: "New listing category"
+        new_listing_category: "New item category"
       form:
         category_name:
           category_title: "Category title"
@@ -20,7 +20,7 @@ en:
           no_parent: "No parent"
         category_transaction_types:
           transaction_types: "Order types"
-          transaction_types_description: "Order types determine what kind of order process is allowed with listings in this category. For example, is it only selling, or are renting and giving away for free also allowed."
+          transaction_types_description: "Order types determine what kind of order process is allowed with items in this category. For example, is it only selling, or are renting and giving away for free also allowed."
           select_all: "Select all"
           clear_all: "Clear all"
         buttons:
@@ -31,8 +31,8 @@ en:
         remove_category_name: "Remove category '%{category_name}'"
         warning_remove_effects: "Warning! Removing category '%{category_name}' will have the following effects:"
         warning_listing_will_be_moved:
-          one: "There is %{count} listing in the category. It will be moved to the selected category."
-          other: "There are %{count} listings in the category. They will be moved to the selected category."
+          one: "There is %{count} item in the category. It will be moved to the selected category."
+          other: "There are %{count} items in the category. They will be moved to the selected category."
         warning_custom_field_will_be_moved:
           one: "There is %{count} custom field in the category. It will be moved to the selected category."
           other: "There are %{count} custom field in the category. They will be moved to the selected category."
@@ -40,8 +40,8 @@ en:
           one: "There is %{count} subcategory in the category. It will be removed."
           other: "There are %{count} subcategories in the category. They will be removed."
         warning_with_subcategories_listing_will_be_moved:
-          one: "There is %{count} listing in the category and subcategories. It will be moved to the selected category."
-          other: "There are %{count} listings in the category and subcategories. They will be moved to the selected category."
+          one: "There is %{count} items in the category and subcategories. It will be moved to the selected category."
+          other: "There are %{count} item in the category and subcategories. They will be moved to the selected category."
         warning_with_subcategories_custom_field_will_be_moved:
           one: "There is %{count} custom field in the category and subcategories. It will be moved to the selected category."
           other: "There are %{count} custom field in the category and subcategories. They will be moved to the selected category."
@@ -75,8 +75,8 @@ en:
         edit_info: "Edit information"
         see_how_it_looks_like: "See how it looks"
         verification_to_post_listings_info_content: "Info text to non-verified users"
-        verification_to_post_listings_info_content_description: "You currently require your users to be verified manually by you before they can post listings. Here you can set the default text that is shown to non-verified users when they try to post a new listing."
-        verification_to_post_listings_info_content_default: "%{service_name} requires people to be verified manually by admin before they can post listings. You have not yet been verified. Please %{contact_admin_link} to be verified."
+        verification_to_post_listings_info_content_description: "You currently require your users to be verified manually by you before they can post items. Here you can set the default text that is shown to non-verified users when they try to post a new listing."
+        verification_to_post_listings_info_content_default: "%{service_name} requires people to be verified manually by admin before they can post items. You have not yet been verified. Please %{contact_admin_link} to be verified."
         contact_admin_link_text: "contact the admin"
         save: "Save settings"
         transaction_agreement: "Transaction agreement"
@@ -438,8 +438,8 @@ en:
       action_button_label: "Checkout button label"
       action_button_placeholder: "E.g. Buy"
       open_listings_warning:
-        one: "There is %{count} open listing with this order type. If you change any of the settings below, that listing will retain the old settings. The listing can be changed to the new settings by editing it manually. If you don't want to have the listing with the old settings visible on your site, you can close it by clicking the button below."
-        other: "There are %{count} open listings with this order type. If you change any of the settings below, those listings will retain the old settings. Those listings can be changed to the new settings by editing them manually. If you don't want to have any listings with the old settings visible on your site, you can close them by clicking the button below."
+        one: "There is %{count} open item with this order type. If you change any of the settings below, that listing will retain the old settings. The listing can be changed to the new settings by editing it manually. If you don't want to have the listing with the old settings visible on your site, you can close it by clicking the button below."
+        other: "There are %{count} open items with this order type. If you change any of the settings below, those listings will retain the old settings. Those listings can be changed to the new settings by editing them manually. If you don't want to have any listings with the old settings visible on your site, you can close them by clicking the button below."
       close_listings_action:
         one: "Close %{count} listing"
         other: "Close %{count} listings"
@@ -1060,8 +1060,8 @@ en:
       no_listings_with_your_search_criteria: "Sorry, no listings could be found for your search criteria. Maybe try other search terms?"
       no_listings_notification: "No listings. %{add_listing_link}."
       add_listing_link_text: "Add new listing"
-      open_listing: "open listing"
-      open_listings: "open listings"
+      open_listing: "open item"
+      open_listings: "open items"
       private_listing_notification_log_in: "log in"
       is: is
       are: are
@@ -1771,13 +1771,13 @@ en:
       reviews: "received reviews"
       listing: listing
       listings: listings
-      open_listing: "open listing"
-      open_listings: "open listings"
+      open_listing: "open item"
+      open_listings: "open items"
       no_listings: "No listings"
-      no_open_listings: "No open listings"
+      no_open_listings: "No open items"
       no_reviews: "No reviews"
       show_all_listings: "Show all listings"
-      show_all_open_listings: "Show all open listings"
+      show_all_open_listings: "Show all open items"
       show_all_reviews: "Show all reviews"
     followed_people:
       you_follow_plural: "You follow %{count} people"
@@ -1834,7 +1834,7 @@ en:
       delete_account_confirmation_popup: "Are you sure you really want to delete your user account and permanently lose all data related to it? Account deletion cannot be reversed."
       email_addresses: "Email addresses"
       new_email: "New email address"
-      delete_personal_information: "If you delete your account, your personal information (name, phone number, address, email, profile picture, etc.) will be deleted permanently and can't be recovered. All the listings you have created will be removed. You won't be able to reactivate your account."
+      delete_personal_information: "If you delete your account, your personal information (name, phone number, address, email, profile picture, etc.) will be deleted permanently and can't be recovered. All the items you have created will be removed. You won't be able to reactivate your account."
       delete_information_others_involved: "Information where other members are involved (conversations with other people, transactions you've made, reviews you've given to others, etc) is not removed when you delete your account. However, your name will no longer be displayed next to this information."
       unfinished_transactions: "Your account can't be deleted because you have ongoing transactions. Please complete all transactions before deleting your account."
       new_password: "New password"
@@ -1872,7 +1872,7 @@ en:
       email_when_conversation_rejected: "...someone rejects my offer or request"
       email_about_completed_transactions: "...someone marks my order as completed"
       email_about_new_payments: "...I receive a new payment"
-      email_about_new_listings_by_followed_people: "...someone I follow posts a new listing"
+      email_about_new_listings_by_followed_people: "...someone I follow posts a new items"
       unsubscribe_succesful: "Unsubscribe succesful"
       unsubscribe_info_text: "You will no longer receive these emails. Check your %{settings_link} to choose what kind of emails you want to receive from %{service_name}, or return to the %{homepage_link}."
       settings_link: settings
@@ -1896,7 +1896,7 @@ en:
       these_fields_are_shown_in_your: "This information is visible to all %{service_name} users"
       visible_to_everybody: "visible to everybody"
       visible_to_registered_users: "(visible to users that have logged in)"
-      default_in_listing: "(used only as a default when creating a new listing)"
+      default_in_listing: "(used only as a default when creating a new items)"
       invisible: "(not shown to other users)"
       image_is_processing: "Hang on tight. We are processing your profile picture. It will be ready in a minute or two."
     save_information: "Save information"
@@ -1938,7 +1938,7 @@ en:
       negative: Negative
       default_textual_feedback: "Everything went smoothly, thanks a lot!"
     testimonial:
-      about_listing: "about listing"
+      about_listing: "about items"
   date:
     formats:
       long_with_abbr_day_name: "%a, %b %d, %Y"
@@ -2069,9 +2069,9 @@ en:
       save_and_close_availability_editing: "Save and close"
       confirm_discarding_unsaved_availability_changes_explanation: "You have unsaved changes to your availability information. If you proceed, these changes will be lost."
       confirm_discarding_unsaved_availability_changes_question: "Are you sure you want to discard your changes?"
-      edit_listing_availability: "Edit listing availability"
+      edit_listing_availability: "Edit item availability"
     no_listings:
-      sorry: "Sorry, no listings could be found for your search criteria."
+      sorry: "Sorry, no items could be found for your search criteria."
       try_other_search_terms: "Maybe try other search terms?"
     listing_card:
       add_picture: "Add picture"
@@ -2087,7 +2087,7 @@ en:
       user: User
       inbox: Inbox
       profile: Profile
-      manage_listings: "Manage listings"
+      manage_listings: "Manage items"
       settings: Settings
       logout: "Log out"
       login: "Log in"

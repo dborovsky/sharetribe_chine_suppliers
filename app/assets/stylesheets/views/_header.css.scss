@@ -205,12 +205,12 @@ $elementSpacing: lines(0.5);
   font-size: em(28);
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  font-weight: 800;
+  //font-weight: 800;
 }
 
 .header-wide-logo-text {
   @include ellipsis;
-  width: rem(150);
+  //width: rem(150);
   height: rem(40);
 }
 
