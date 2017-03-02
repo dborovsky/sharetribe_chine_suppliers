@@ -23,7 +23,6 @@ gem 'jquery-rails', '3.1.3'
 # Bundle the extra gems:
 
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
-gem "passenger", "~> 5.0.30"
 
 gem "mysql2", "~> 0.4.4"
 gem 'haml', "~> 4.0.5"
@@ -186,3 +185,4 @@ gem 'color', '~> 1.8'
 
 gem 'uuidtools', '~> 2.1'
 gem 'transit-ruby', '~> 0.8'
+gem 'puma'
