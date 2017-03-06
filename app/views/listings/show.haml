@@ -169,10 +169,10 @@
           #googlemap
             = render :partial => "googlemap", :locals => { :listing => @listing}
             = render :partial => "origin", :locals => { :origin_loc => @listing.origin_loc }
-%script{:src => "https://code.jquery.com/jquery-1.10.2.js"}
-:javascript
-    $( document ).ready(function() {
-      price = $( "div:contains('Minimal Order')" )[4].textContent.split("\n").filter(function(v){return v!==''})[1];
-      $( "div:contains('Minimal Order')" )[4].replaceWith("Minimal Order:");
-      $( "div:contains('Measure')" ).find('b').replaceWith(price);
-    } );
+-# %script{:src => "https://code.jquery.com/jquery-1.10.2.js"}
+-# :javascript
+-#     $( document ).ready(function() {
+-#       price = $( "div:contains('Minimal Order')" )[4].textContent.split("\n").filter(function(v){return v!==''})[1];
+-#       $( "div:contains('Minimal Order')" )[4].replaceWith("Minimal Order:");
+-#       $( "div:contains('Measure')" ).find('b').replaceWith(price);
+-#     } );
